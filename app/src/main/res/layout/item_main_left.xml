@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_main_left_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/item_main_left_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男装"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/item_main_left_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_launcher_round" />
+</LinearLayout>
